@@ -1,0 +1,17 @@
+// Converted with vmt_to_vmat.py
+
+Layer0
+{
+	shader "vr_complex.vfx"
+
+	TextureColor "materials\models\props_xen\c4a1a\rp_coil_color.tga"
+	TextureNormal "materials\models\props_xen\c4a1a\rp_coil_normal.tga"
+	TextureAmbientOcclusion "materials\models\props_xen\c4a1a\rp_coil_ao.tga"
+	g_flAmbientOcclusionDirectSpecular "0.000"
+	F_SPECULAR 1
+	TextureRoughness "[0.5131429570242343 0.5131429570242343 0.5131429570242343 0.000]"
+	TextureDetail "materials/detail\bm_metal_detail_01.tga"
+	F_DETAIL_TEXTURE 1
+	g_vDetailTexCoordScale "[6 6]"
+	g_flDetailBlendFactor "0.8"
+}

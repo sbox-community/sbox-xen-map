@@ -1,0 +1,94 @@
+// Created by Crowbar 0.71
+
+$modelname "props_xen\flocking\mantaflocking_hunters.mdl"
+
+$bodygroup "body"
+{
+	studio "MantaFlocking_Hunters_Ref.smd"
+}
+
+
+$surfaceprop "default"
+
+$contents "solid"
+
+$illumposition 0 0 2000
+
+$cdmaterials "models\xenians\manta_jet\"
+
+$cbox 0 0 0 0 0 0
+
+$bbox -752.828 -2973.624 -1485.211 3233.836 4353.984 -358.133
+
+$definebone "hayvan1LowerBody" "" 3751.929932 233.507004 -525.729004 -3.022627 -50.839871 0.106546 0 0 0 0 0 0
+$definebone "hayvan1UpperBody01" "" 3720 271.644989 -527.219971 13.539451 129.546327 -0.014291 0 0 0 0 0 0
+$definebone "hayvan1Breathe05" "" 3902.290039 132.468994 -524.84198 86.975567 -48.819843 91.622254 0 0 0 0 0 0
+$definebone "hayvan1Breathe06" "" 3818.919922 63.6017 -525.004028 86.975567 -48.819843 91.622254 0 0 0 0 0 0
+$definebone "hayvan1FinL_01" "" 3727.949951 264.243011 -463.187988 14.241496 -136.949514 -166.022542 0 0 0 0 0 0
+$definebone "hayvan1FinL_02" "hayvan1FinL_01" 207.468018 -0.000122 0 -7.3809 -0.000003 0.000002 0 0 0 0 0 0
+$definebone "hayvan1FinL_04" "hayvan1FinL_02" 130.40625 0.000488 0.59668 -1.508003 -0.000002 0.000002 0 0 0 0 0 0
+$definebone "hayvan1FinL_06" "hayvan1FinL_04" 137.81604 1.482056 0.415039 2.065133 3.556923 -0.155849 0 0 0 0 0 0
+$definebone "hayvan1Breathe07" "" 3614.860107 397.126007 -644.487 13.539451 129.546327 -90.014544 0 0 0 0 0 0
+$definebone "hayvan1Breathe03" "" 3754.820068 333.335999 -621.046997 76.460641 -50.392388 90.059227 0 0 0 0 0 0
+$definebone "hayvan1Breathe02" "" 3645.709961 254.457993 -624.984009 76.460641 -50.392388 90.059227 0 0 0 0 0 0
+$definebone "hayvan1Breathe01" "" 3590.320068 321.545013 -643.97699 76.460641 -50.392388 90.059227 0 0 0 0 0 0
+$definebone "hayvan1FinR_01" "" 3727.949951 264.243011 -463.187988 12.601633 36.708432 166.186412 0 0 0 0 0 0
+$definebone "hayvan1FinR_02" "hayvan1FinR_01" 207.468262 -0.000122 0.000031 -7.917187 0.079341 0.01616 0 0 0 0 0 0
+$definebone "hayvan1FinR_04" "hayvan1FinR_02" 130.407959 0.145508 -0.255432 -1.759045 0.313845 0.099499 0 0 0 0 0 0
+$definebone "hayvan1FinR_06" "hayvan1FinR_04" 137.79541 -1.190674 -1.94342 7.376603 -3.26565 0.046199 0 0 0 0 0 0
+$definebone "hayvan1Breathe04" "" 3700.709961 398.872009 -634.054016 76.460641 -50.392388 90.059227 0 0 0 0 0 0
+$definebone "hayvan1TailR_01" "" 3971.040039 14.7312 -509.734009 -4.277434 -35.643766 -2.283105 0 0 0 0 0 0
+$definebone "hayvan1TailR_03" "hayvan1TailR_01" 126.541016 -0.01709 0 -2.960484 -3.898359 3.817704 0 0 0 0 0 0
+$definebone "hayvan1TailR_05" "hayvan1TailR_03" 130.645996 -0.862305 0 -2.960485 -3.977611 3.817704 0 0 0 0 0 0
+$definebone "hayvan1TailL_01" "" 3922.560059 -25.3111 -509.811005 -4.272598 -64.497859 2.364225 0 0 0 0 0 0
+$definebone "hayvan1TailL_03" "hayvan1TailL_01" 126.542114 0.017578 0 -2.569298 5.323872 -10.068415 0 0 0 0 0 0
+$definebone "hayvan1TailL_05" "hayvan1TailL_03" 130.645996 0.862061 0.000031 -2.790048 5.207163 -9.100292 0 0 0 0 0 0
+$definebone "hayvan2LowerBody" "" -1011.309998 1606.819946 42.4884 21.405531 -139.867016 43.092493 0 0 0 0 0 0
+$definebone "hayvan2UpperBody01" "" -976.815979 1637.550049 60.987202 -13.318003 33.070205 -40.94081 0 0 0 0 0 0
+$definebone "hayvan2Breathe05" "" -1114.359985 1462.079956 7.19755 42.83421 -28.555414 -150.548093 0 0 0 0 0 0
+$definebone "hayvan2Breathe06" "" -1145.180054 1539.380005 -61.850201 42.83421 -28.555414 -150.548093 0 0 0 0 0 0
+$definebone "hayvan2FinL_01" "" -1027.23999 1650.140015 99.942497 53.395547 104.486308 157.274627 0 0 0 0 0 0
+$definebone "hayvan2FinL_02" "hayvan2FinL_01" 207.467896 0.000076 -0.000244 -7.380901 -0.000002 -0.000002 0 0 0 0 0 0
+$definebone "hayvan2FinL_04" "hayvan2FinL_02" 130.406067 0.000023 0.596802 -1.508002 -0.000001 -0.000002 0 0 0 0 0 0
+$definebone "hayvan2FinL_06" "hayvan2FinL_04" 137.817017 1.481869 0.414917 2.065139 3.556933 -0.155849 0 0 0 0 0 0
+$definebone "hayvan2Breathe07" "" -786.890015 1703.130005 47.5769 -13.318003 33.070205 -130.940915 0 0 0 0 0 0
+$definebone "hayvan2Breathe03" "" -876.947021 1576.300049 51.197701 47.31325 -42.05831 -160.137692 0 0 0 0 0 0
+$definebone "hayvan2Breathe02" "" -906.833984 1676.569946 -33.628799 47.31325 -42.05831 -160.137692 0 0 0 0 0 0
+$definebone "hayvan2Breathe01" "" -835.190979 1724.709961 -11.7215 47.31325 -42.05831 -160.137692 0 0 0 0 0 0
+$definebone "hayvan2FinR_01" "" -1027.23999 1650.140015 99.942497 -27.260185 -63.662486 -165.093199 0 0 0 0 0 0
+$definebone "hayvan2FinR_02" "hayvan2FinR_01" 207.467896 -0.000053 0.000061 -7.917187 0.079336 0.016161 0 0 0 0 0 0
+$definebone "hayvan2FinR_04" "hayvan2FinR_02" 130.408081 0.145828 -0.25531 -1.759041 0.313841 0.0995 0 0 0 0 0 0
+$definebone "hayvan2FinR_06" "hayvan2FinR_04" 137.795044 -1.190639 -1.943298 7.376608 -3.265657 0.046204 0 0 0 0 0 0
+$definebone "hayvan2Breathe04" "" -810.734009 1625.079956 76.264099 47.31325 -42.05831 -160.137692 0 0 0 0 0 0
+$definebone "hayvan2TailR_01" "" -1221.73999 1398.810059 -50.108299 9.792252 -129.635706 44.448177 0 0 0 0 0 0
+$definebone "hayvan2TailR_03" "hayvan2TailR_01" 126.540955 -0.017578 0 -2.960485 -3.898354 3.817701 0 0 0 0 0 0
+$definebone "hayvan2TailR_05" "hayvan2TailR_03" 130.645935 -0.862549 0 -2.960485 -3.977616 3.817703 0 0 0 0 0 0
+$definebone "hayvan2TailL_01" "" -1239.670044 1443.76001 -90.244904 29.222739 -152.316251 39.124423 0 0 0 0 0 0
+$definebone "hayvan2TailL_03" "hayvan2TailL_01" 126.542053 0.017334 0.000122 -2.569295 5.323873 -10.068417 0 0 0 0 0 0
+$definebone "hayvan2TailL_05" "hayvan2TailL_03" 130.646057 0.862427 0.000061 -2.790058 5.207154 -9.100295 0 0 0 0 0 0
+
+
+$sectionframes 30 600
+
+$sequence "Manta_Entrance_Swarm_before" {
+	"mantaflocking_hunters_anims\Manta_Entrance_Swarm_before.smd"
+	fadein 0.2
+	fadeout 0.2
+	fps 1
+	loop
+}
+
+$sequence "Manta_Entrance_Swarm" {
+	"mantaflocking_hunters_anims\Manta_Entrance_Swarm.smd"
+	fadein 0.2
+	fadeout 0.2
+	fps 30
+}
+
+$sequence "Manta_Entrance_Swarm_after" {
+	"mantaflocking_hunters_anims\Manta_Entrance_Swarm_after.smd"
+	fadein 0.2
+	fadeout 0.2
+	fps 1
+	loop
+}

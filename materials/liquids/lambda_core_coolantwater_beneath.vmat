@@ -1,0 +1,8 @@
+// Converted with vmt_to_vmat.py
+
+Layer0
+{
+	shader "vr_complex.vfx"
+
+	TextureNormal "materials\liquids\lambda_core_coolantwater_beneath_normal.tga"
+}

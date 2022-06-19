@@ -1,0 +1,16 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/xen_props/fungus/fungus"
+	"$bumpmap" "models/xen_props/fungus/fungus_n"
+	"$surfaceprop" "Flesh"
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[.10 .10 .10]"
+	"$phong" "1"
+	"$phongexponent" "15"
+	"$phongboost"	"1.5"
+	"$phongfresnelranges"	"[1 1 1]"
+	"$normalmapalphaenvmapmask" 1
+	"$rimlight" "1" 
+	"$rimlightexponent" ".7" 
+	"$rimlightboost" "1.2"
+}

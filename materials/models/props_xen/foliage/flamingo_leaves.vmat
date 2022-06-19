@@ -1,0 +1,13 @@
+// Converted with vmt_to_vmat.py
+
+Layer0
+{
+	shader "vr_complex.vfx"
+
+	TextureColor "materials\models\props_xen\foliage\flamingo_leaves_color.tga"
+	TextureNormal "materials\models\props_xen\foliage\flamingo_leaves_normal.tga"
+	TextureAmbientOcclusion "materials\models\props_xen\foliage\flamingo_leaves_ao.tga"
+	g_flAmbientOcclusionDirectSpecular "0.000"
+	F_ALPHA_TEST 1
+	TextureTranslucency "materials\models\props_xen\foliage\flamingo_leaves_trans.tga"
+}

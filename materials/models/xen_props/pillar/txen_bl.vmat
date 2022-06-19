@@ -1,0 +1,17 @@
+// Converted with vmt_to_vmat.py
+
+Layer0
+{
+	shader "vr_complex.vfx"
+
+	TextureColor "materials\models\xen_props\pillar\txen_bl_color.tga"
+	TextureNormal "materials\models\xen_props\pillar\txen_bl_normal.tga"
+	TextureAmbientOcclusion "materials\models\xen_props\pillar\txen_bl_ao.tga"
+	g_flAmbientOcclusionDirectSpecular "0.000"
+	F_SPECULAR 1
+	TextureRoughness "[0.6021174375497318 0.6021174375497318 0.6021174375497318 0.000]"
+	TextureDetail "materials/detail\xen.tga"
+	F_DETAIL_TEXTURE 1
+	g_vDetailTexCoordScale "[15 15]"
+	g_flDetailBlendFactor "0.50"
+}

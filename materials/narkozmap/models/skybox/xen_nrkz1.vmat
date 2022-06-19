@@ -1,0 +1,11 @@
+// Converted with vmt_to_vmat.py
+
+Layer0
+{
+	shader "vr_complex.vfx"
+
+	TextureColor "materials\narkozmap\models\skybox\xen_nrkz1_color.tga"
+	F_SELF_ILLUM 1
+	TextureSelfIllumMask "materials\narkozmap\models\skybox\xen_nrkz1_selfillum.tga"
+	g_vSelfIllumTint "[1.0 1.0 1.0 0.0]"
+}

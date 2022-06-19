@@ -1,0 +1,5 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/xenians/manta_jet/manta"
+    "$model" 1
+}

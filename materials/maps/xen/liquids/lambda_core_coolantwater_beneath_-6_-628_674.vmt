@@ -1,0 +1,11 @@
+"patch"
+{
+	"include"		"materials/Liquids/Lambda_Core_coolantwater_beneath.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/xen/c-6_-628_674"
+		"Proxies"
+		{
+		}
+	}
+}

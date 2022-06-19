@@ -1,0 +1,12 @@
+"patch"
+{
+	"include"		"materials/LIQUIDS/XEN_HEALINGWATER.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/xen/c-2777_1887_454"
+		"$bottommaterial"		"maps/xen/liquids/lambda_core_coolantwater_beneath_-2777_1887_454"
+		"Proxies"
+		{
+		}
+	}
+}

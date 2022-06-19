@@ -1,0 +1,31 @@
+"VertexLitGeneric"
+{
+	"$baseTexture"			"models/props_xen/xen_fingers02"
+	"$envmap"			"env_cubemap"
+	"$bumpmap"			"models/props_xen/xen_fingers_nm"
+	"$normalmapalphaenvmapmask"	"1"
+	"$envmaptint"			"[ 0 0 1]"
+//	"$envmapcontrast" 		"1"
+	"$selfillum"			"1"
+//	"$translucent" "1"
+//	"$additive" "1"
+//	"$selfillum_envmapmask_alpha" 	"1"
+	"$halflambert" 			"1"
+	"$model" 			"1"
+	"$phong"			"1"
+        $phongexponent 50
+        $phongboost 4
+//       $halflambert 0
+        $phongfresnelranges "[.4 .1 1]"
+	$phongtint "[ 0 0 1 ]"
+	$rimlight "1"
+	$rimlightexponent "10"
+	$rimlightboost "10"
+	$basemapluminancephongmask "1"
+$detail "detail/xen_bone2.vtf"
+$detailscale .5
+$detailblendfactor .8
+$detailblendmode 0
+	"$multipass" 1
+//"$phongwarptexture"  "models/effects/phongwarp_library/iridescence008"
+}

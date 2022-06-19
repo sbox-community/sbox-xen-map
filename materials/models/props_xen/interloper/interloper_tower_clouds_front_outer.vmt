@@ -1,0 +1,24 @@
+"UnlitGeneric"
+{
+	"$basetexture" 				"models/props_xen/interloper/interloper_tower_clouds_front"
+	//"$detail" 				"models/props_xen/interloper/interloper_tower_clouds_mask"
+	//"$detailblendmode" 		"9"
+	//"$detailscale" 			"1"
+	//"$detailtexturetransform" "center .5 .5 scale 1 1 rotate 0 translate 0 0"
+ 	"$model" 					1
+	//"$nocull" 				"1"
+	"$translucent" 				"1"
+	"$halflambert" 				"1"
+
+	"Proxies"
+	{
+		"TextureScroll"
+		{
+			"texturescrollvar" "$basetexturetransform"
+			"texturescrollrate" .005
+			"texturescrollangle" 0
+		}
+		
+	}
+
+}

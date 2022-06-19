@@ -1,0 +1,5 @@
+"VertexLitGeneric"
+{
+	"$basetexture"  "models/props_xen/rocks/crystals/xen_c4a2a_crystal_1a_256"
+	"$selfillum" "1"
+}

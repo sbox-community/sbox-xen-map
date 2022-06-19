@@ -1,0 +1,63 @@
+// THIS FILE IS AUTO-GENERATED
+
+Layer0
+{
+	shader "blendable.vfx"
+
+	F_MULTIBLEND 2 // 3 Layers
+
+	//---- Color ----
+	g_flModelTintAmount "1.000"
+	g_vColorTint "[1.000000 1.000000 1.000000 0.000000]"
+
+	//---- Fade ----
+	g_flFadeExponent "1.000"
+
+	//---- Fog ----
+	g_bFogEnabled "1"
+
+	//---- Lighting ----
+	g_flDirectionalLightmapMinZ "0.050"
+	g_flDirectionalLightmapStrength "1.000"
+
+	//---- Material A ----
+	g_flTintColorA "[1.000000 1.000000 1.000000 0.000000]"
+	TextureAmbientOcclusionA "materials/xen/xen_dirtfloor_001a_ao.tga"
+	TextureBlendMaskA "materials/default/default_blend.tga"
+	TextureColorA "materials/xen/xen_dirtfloor_001a.tga"
+	TextureMetalnessA "materials/xen/xen_dirtfloor_001a_metal.png"
+	TextureNormalA "materials/xen/xen_dirtfloor_001a_NORM.png"
+	TextureRoughnessA "materials/xen/xen_dirtfloor_001a_rough.png"
+	TextureTintMaskA "materials/default/default.tga"
+
+	//---- Material B ----
+	g_flBlendSoftnessB "0.500"
+	g_flTintColorB "[1.000000 1.000000 1.000000 0.000000]"
+	g_vTexCoordScale2 "[1.000 1.000]"
+	TextureAmbientOcclusionB "materials/xen/blend_c4a1a_xen_rock_wall05_xen_dirtfloor_001a_color_ao.tga"
+	TextureBlendMaskB "materials/default/default_blend.tga"
+	TextureColorB "materials/xen/blend_c4a1a_xen_rock_wall05_xen_dirtfloor_001a_color.tga"
+	TextureMetalnessB "materials/xen/blend_c4a1a_xen_rock_wall05_xen_dirtfloor_001a_metal.tga"
+	TextureNormalB "materials/xen/blend_c4a1a_xen_rock_wall05_xen_dirtfloor_001a_color_norm.png"
+	TextureRoughnessB "materials/xen/blend_c4a1a_xen_rock_wall05_xen_dirtfloor_001a_rough.tga"
+	TextureTintMaskB "materials/default/default.tga"
+
+	//---- Material C ----
+	g_flBlendSoftnessC "0.500"
+	g_flTintColorC "[1.000000 1.000000 1.000000 0.000000]"
+	g_vTexCoordScale3 "[1.000 1.000]"
+	TextureAmbientOcclusionC "materials/xen/blend/xen_dirt_floor_001a/marble023_1k_color.jpg"
+	TextureBlendMaskC "materials/xen/blend/xen_dirt_floor_001a/marble023_1k_color.jpg"
+	TextureColorC "materials/xen/blend/xen_dirt_floor_001a/marble023_1k_color.jpg"
+	TextureMetalnessC "materials/xen/blend/xen_dirt_floor_001a/marble023_1k_color.jpg"
+	TextureNormalC "materials/xen/blend/xen_dirt_floor_001a/marble023_1k_normal.jpg"
+	TextureRoughnessC "materials/xen/blend/xen_dirt_floor_001a/marble023_1k_color.jpg"
+	TextureTintMaskC "materials/xen/blend/xen_dirt_floor_001a/marble023_1k_color.jpg"
+
+	//---- Texture Coordinates ----
+	g_nScaleTexCoordUByModelScaleAxis "0"
+	g_nScaleTexCoordVByModelScaleAxis "0"
+	g_vTexCoordOffset "[0.000 0.000]"
+	g_vTexCoordScale "[0.500 0.500]"
+	g_vTexCoordScrollSpeed "[0.000 0.000]"
+}

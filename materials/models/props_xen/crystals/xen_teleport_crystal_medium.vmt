@@ -1,0 +1,39 @@
+"VertexLitGeneric"
+{
+
+	$basetexture	"models\props_xen\crystals\xen_teleport_crystal_medium_d"
+	$bumpmap 	"models\props_xen\crystals\xen_teleport_crystal_medium_nm"
+	$model 		1
+	$selfillum 		1
+
+	"$envmap" 	"cubemaps\cubemap_sheen001" 
+   	"$envmaptint" 	"[2.6 1.8 .1]"
+	"$normalmapalphaenvmapmask" "1"
+
+
+ 	"$emissiveBlendEnabled" 	"1"
+	"$emissiveBlendTint" 	"{255 191 53}"
+ 	"$emissiveBlendTexture" 	"models\props_xen\glow_red3"
+	"$emissiveBlendBaseTexture" "models\props_xen\crystals\xen_teleport_crystal_medium_exp"
+	"$emissiveBlendFlowTexture" "models\props_xen\glow_red3" //Can use a flow mask that scrolls to create disruptive patterns. Use white for just basic glow.
+    	"$emissiveBlendStrength" 	1 //Strength of glow. Can be controlled via proxy for variable glow.
+    	"$emissiveBlendScrollVector" "[0.02 0.04]" 
+	"$sheenpassenabled" 	"1"
+	
+	"$lightwarptexture" "models\effects\lightwarp_atlas"
+	"$WARPINDEX_DIFF" "2"
+	"$WARPINDEX_SPEC" "2"
+
+	$phong 	1
+        	$phongexponent 	50
+       	$phongboost 	3
+       	$phongtint 	"[255 191 53]"
+       	$halflambert 	1
+	$phongfresnelranges "[0.05 0.5 1]"  //The angle of the dangle
+
+	$rimlight 		"1"
+	$rimlightexponent 	"50" //Range
+	$rimlightboost 	"10"
+
+
+}

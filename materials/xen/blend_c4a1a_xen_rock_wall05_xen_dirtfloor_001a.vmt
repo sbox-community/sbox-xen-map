@@ -1,0 +1,27 @@
+"LightmappedGeneric"
+{	
+	"$basetexture" 			"xen/xen_rock_wall05_d"
+	"$basetexture2"			"xen/xen_dirtfloor_001a"
+
+	"$bumpmap"			"xen/xen_rock_wall05_n"
+	
+	"%tooltexture" 			"xen/xen_rock_wall05_d"
+
+	"$surfaceprop" 			"rock"
+	"$surfaceprop2" 		"dirt"
+
+	"$envmap" 			"env_cubemap"
+	"$ssbump" "1"
+	"$SSBumpMathFix" "1"
+	"$normalmapalphaenvmapmask" 	"1"
+
+	"$envmaptint" "[.32 .68 .32]"
+
+//	"$blendmodulatetexture" 	"xen/blend/xen_modulate_001"
+
+	"%keywords" 			"bms, Xen, seamless, blend"
+
+	"$seamless_scale" 		 "0.002"
+
+//"%detailtype" "xen_flora"
+}

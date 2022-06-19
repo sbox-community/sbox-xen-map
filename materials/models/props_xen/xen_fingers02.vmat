@@ -1,0 +1,19 @@
+// Converted with vmt_to_vmat.py
+
+Layer0
+{
+	shader "vr_complex.vfx"
+
+	TextureColor "materials\models\props_xen\xen_fingers02_color.tga"
+	TextureNormal "materials\models\props_xen\xen_fingers02_normal.tga"
+	TextureAmbientOcclusion "materials\models\props_xen\xen_fingers02_ao.tga"
+	g_flAmbientOcclusionDirectSpecular "0.000"
+	F_SPECULAR 1
+	TextureRoughness "[0.36259872346802463 0.36259872346802463 0.36259872346802463 0.000]"
+	F_SELF_ILLUM 1
+	TextureSelfIllumMask "materials\models\props_xen\xen_fingers02_selfillum.tga"
+	TextureDetail "materials/detail/xen_bone2.tga"
+	F_DETAIL_TEXTURE 1
+	g_vDetailTexCoordScale "[.5 .5]"
+	g_flDetailBlendFactor ".8"
+}

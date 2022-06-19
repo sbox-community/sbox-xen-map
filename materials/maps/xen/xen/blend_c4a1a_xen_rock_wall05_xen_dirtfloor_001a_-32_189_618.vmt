@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/XEN/BLEND_C4A1A_XEN_ROCK_WALL05_XEN_DIRTFLOOR_001A.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/xen/c-32_189_618"
+	}
+}

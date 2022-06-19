@@ -1,0 +1,22 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/xen_props/pillar/txen_bl"
+	"$bumpmap" "models/xen_props/pillar/txen_normal"
+	"$surfaceprop" "AlienFlesh"
+//	"$envmap" "env_cubemap"
+	"$normalmapalphaenvmapmask" 1
+//	"$envmapcontrast" 1
+//	"$envmapsaturation" .4
+//	"$envmaptint" "[ .30 .39 .40 ]"
+	"$phong" "1"
+	"$phongexponent" "3"
+	"$phongboost"	"1.1"
+	"$phongfresnelranges"	"[1 1 1]"
+//	"$rimlight" "1" 
+	"$rimlightexponent" "0.3" 
+	"$rimlightboost" "2.5"
+        "$detail" "detail\xen"
+	"$detailscale" "15"
+	"$detailblendfactor" 0.50
+	"$detailblendmode" 0
+}

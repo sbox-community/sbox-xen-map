@@ -1,0 +1,15 @@
+// Converted with vmt_to_vmat.py
+
+Layer0
+{
+	shader "vr_complex.vfx"
+
+	TextureColor "materials\models\xenians\boid\boid_color.tga"
+	TextureNormal "materials\models\xenians\boid\boid_normal.tga"
+	TextureAmbientOcclusion "materials\models\xenians\boid\boid_ao.tga"
+	g_flAmbientOcclusionDirectSpecular "0.000"
+	F_SPECULAR 1
+	TextureRoughness "[0.5131429570242343 0.5131429570242343 0.5131429570242343 0.000]"
+	F_SELF_ILLUM 1
+	TextureSelfIllumMask "materials\models\xenians\boid\boid_selfillum.tga"
+}

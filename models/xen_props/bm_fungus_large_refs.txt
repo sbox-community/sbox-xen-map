@@ -1,0 +1,4 @@
+importfilelist
+{
+	"file"	"materials\models\xen_props\fungus\fungus.vmt"
+}

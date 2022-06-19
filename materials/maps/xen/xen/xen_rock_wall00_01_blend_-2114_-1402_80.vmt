@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/XEN/XEN_ROCK_WALL00_01_BLEND.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/xen/c-2114_-1402_80"
+	}
+}

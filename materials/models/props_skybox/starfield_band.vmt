@@ -1,0 +1,18 @@
+"UnlitGeneric"
+{
+	"$basetexture" "models/props_skybox/starfield_band"
+ 	"$model" 1
+	"$additive" "1"
+
+	//"Proxies"
+	//{
+	//	"TextureScroll"
+	//	{
+	//		"texturescrollvar" "$baseTextureTransform"
+	//		"texturescrollrate" .001
+	//		"texturescrollangle" 0
+	//	}
+	//}
+
+
+}

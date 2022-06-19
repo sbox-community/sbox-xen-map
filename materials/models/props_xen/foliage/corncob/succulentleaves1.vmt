@@ -1,0 +1,23 @@
+"VertexLitGeneric"
+{
+	$basetexture "models/props_xen/foliage/corncob/succulent2_d"
+	$envmap "env_cubemap"
+	$basealphaenvmapmask "1"
+
+  $treeSway                         "1"
+   $treeSwayHeight                   "10"
+   $treeSwayStartHeight              ".5"
+   $treeSwayRadius                   "20"
+   $treeSwayStartRadius              "0"
+   $treeSwaySpeed                    "2"
+   $treeSwayStrength                 "0"
+   $treeSwayScrumbleSpeed            "2"
+   $treeSwayScrumbleStrength         ".01"
+   $treeSwayScrumbleFrequency        "20"
+   $treeSwayFalloffExp               "6"
+   $treeSwayScrumbleFalloffExp       "5"
+   $treeSwaySpeedHighWindMultiplier  "0"
+   $treeSwaySpeedLerpStart           "1000.0"
+   $treeSwaySpeedLerpEnd             "2500.0"
+    "$model" 1
+}

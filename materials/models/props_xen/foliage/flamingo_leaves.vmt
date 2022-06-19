@@ -1,0 +1,43 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/props_xen/foliage/flamingo_leaves"
+	"$bumpmap" "models/props_xen/foliage/flamingo_leaves_nm"
+
+	"$surfaceprop" "alienflesh"
+	"$multipass" 0
+
+	"$envmap" "env_cubemap"
+	"$normalmapalphaenvmapmask" "1"
+	"$envmaptint" "[.25 .25 .25]"
+
+//	"$phong" "1"
+//	"$phongboost" "1"
+ //       "$phongexponent" "5"
+//	"$phongalbedotint" "1"
+//	"$phongfresnelranges" "[.18 .4 1]"
+	"$nodecal" "1"
+	"$nocull" 1
+
+// Rim lighting parameters
+	"$rimlight" "1"				// To enable rim lighting (requires phong)
+	"$rimlightexponent" "30"             // Exponent for phong component of rim lighting
+	"$rimlightboost" "3"	               // Boost for ambient cube component of rim lighting
+	"$alphatest" 1	
+//	"$selfillum" 1
+//	"$selfillumtint" "[ 0 0 0 ]"
+$treeSway                         "1"
+$treeSwayHeight                   "-10"
+$treeSwayStartHeight              ".5"
+$treeSwayRadius                   "0"
+$treeSwayStartRadius              "0.0"
+$treeSwaySpeed                    "2"
+$treeSwayStrength                 "0"
+$treeSwayScrumbleSpeed            "5"
+$treeSwayScrumbleStrength         ".015"
+$treeSwayScrumbleFrequency        "60"
+$treeSwayFalloffExp               "6"
+$treeSwayScrumbleFalloffExp       "3"
+$treeSwaySpeedHighWindMultiplier  ".1"
+$treeSwaySpeedLerpStart           "1000.0"
+$treeSwaySpeedLerpEnd             "2500.0"
+}

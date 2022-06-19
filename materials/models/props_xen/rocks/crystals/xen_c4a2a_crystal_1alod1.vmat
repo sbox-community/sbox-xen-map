@@ -1,0 +1,10 @@
+// Converted with vmt_to_vmat.py
+
+Layer0
+{
+	shader "vr_complex.vfx"
+
+	TextureColor "materials\models\props_xen\rocks\crystals\xen_c4a2a_crystal_1alod1_color.tga"
+	F_SELF_ILLUM 1
+	TextureSelfIllumMask "materials\models\props_xen\rocks\crystals\xen_c4a2a_crystal_1alod1_selfillum.tga"
+}

@@ -1,0 +1,8 @@
+"UnlitGeneric"
+{
+$basetexture	"narkozmap/models/skybox/xen_nrkz"
+$selfillum "1"
+$selfillummask	"narkozmap/models/skybox/exp"
+$selfillumtint "1 1 1"
+"$nofog" 1
+}

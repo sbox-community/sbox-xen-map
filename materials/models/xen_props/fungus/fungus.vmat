@@ -1,0 +1,13 @@
+// Converted with vmt_to_vmat.py
+
+Layer0
+{
+	shader "vr_complex.vfx"
+
+	TextureColor "materials\models\xen_props\fungus\fungus_color.tga"
+	TextureNormal "materials\models\xen_props\fungus\fungus_normal.tga"
+	TextureAmbientOcclusion "materials\models\xen_props\fungus\fungus_ao.tga"
+	g_flAmbientOcclusionDirectSpecular "0.000"
+	F_SPECULAR 1
+	TextureRoughness "[0.47892359770983817 0.47892359770983817 0.47892359770983817 0.000]"
+}

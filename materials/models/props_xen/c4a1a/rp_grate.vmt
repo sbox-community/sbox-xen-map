@@ -1,0 +1,8 @@
+"vertexlitgeneric"
+{
+	"$basetexture" "models/props_xen/c4a1a/rp_grate_d"
+	"$surfaceprop" "metalgrate"
+	"$alphatest" "1"
+	"$allowalphatocoverage" "1"
+
+}

@@ -1,0 +1,25 @@
+"VertexLitGeneric"
+{
+	"$basetexture"  "models/props_xen/rocks/crystals/xen_c4a2a_crystal_geode_1a"
+	"$bumpmap" "models/props_xen/rocks/crystals/xen_c4a2a_crystal_geode_1a_normal"
+
+	"$basealphaenvmapmask"		"1"	
+	"$envmap" "env_cubemap"
+	"$envmapcontrast" ".5"
+	"$envmaptint"			"[.16 .2 .24]"
+	"$nodecal" "1"
+	"$multipass" 0
+
+	"$lightwarptexture" "xen/effects/xen_lightwarp_crystal_01a"
+
+	"$phong" 		"1"
+	"$phongexponent" 	"10"
+	"$phongboost" 		"10"
+	"$phongfresnelranges"	"[2 1.5 .5]"
+	"$phongwarptexture" 	"xen/effects/xen_phongwarp_crystal_01a"
+
+	$detail detail\detail_c4a2a_crystal_1a
+        $detailscale 7
+        $detailblendfactor .15
+	
+}

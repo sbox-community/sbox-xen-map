@@ -1,0 +1,27 @@
+VertexLitGeneric
+{
+	$baseTexture models\props_equipment\jumpplatform01_plain
+	$bumpMap models\props_equipment\jumpplatform01_normal
+	
+	"$envmap" "env_cubemap"
+   	"$envmaptint" "[1.5 1.5 1.5]"
+	"$normalmapalphaenvmapmask" 1
+	"$envmapcontrast" "1"
+	
+	$phong 1
+	$phongExponent 28
+	$phongBoost 2.6
+	$phongFresnelRanges "[0.3 0.6 1]"
+	
+	$rimLight 1
+	$rimLightExponent 4
+	$rimLightBoost 0.2
+	
+	$emissiveBlendEnabled 1
+	$emissiveBlendTexture vgui\white
+	$emissiveBlendBaseTexture models\props_equipment\jumpplatform01_emissivemask
+	$emissiveBlendFlowTexture vgui\white
+	$emissiveBlendTint "[0.2 1 1.8]"
+	$emissiveBlendStrength 1
+	$emissiveBlendScrollVector "[0 0]"
+}

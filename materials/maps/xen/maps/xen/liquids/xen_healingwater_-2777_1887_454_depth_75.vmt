@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/maps/xen/liquids/xen_healingwater_-2777_1887_454.vmt"
+	"insert"
+	{
+		"$waterdepth"		"75"
+	}
+}

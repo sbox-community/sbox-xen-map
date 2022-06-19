@@ -1,0 +1,7 @@
+"UnlitGeneric"
+{
+	"$basetexture" "models/props_skybox/starfield"
+ 	"$model" 1
+	"$additive" "1"
+
+}
